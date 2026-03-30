@@ -154,7 +154,7 @@ const kagiSearchPlugin = {
             })
             .join("\n\n");
 
-          const footer = `\n\n---\n_Kagi Search · ${organic.length} results · ${json.meta.ms}ms · balance: $${json.meta.api_balance.toFixed(2)}_`;
+          const footer = `\n\n---\n_Kagi Search · ${organic.length} results · ${json.meta.ms}ms_`;
 
           return {
             content: [
